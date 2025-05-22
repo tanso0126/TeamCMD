@@ -3,4 +3,4 @@ python3 whisper_online_server.py --language ko --min-chunk-size 1 --vad --buffer
 mac:
 sox -t coreaudio default -b 16 -e signed -c 1 -r 16000 -t raw - | nc localhost 43007
 windows: 
-sox -t waveaudio  default -b 16 -e signed -c 1 -r 16000 -t raw - | telnet localhost 43007 
+sox -t waveaudio default -b 16 -e signed -c 1 -r 16000 -t raw - | telnet localhost 43007 
